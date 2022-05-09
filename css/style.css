@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.4s;
+}
+#body {
+    display: block;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #c0d2f3;
+}
+.textarea {
+    display: block;
+    width: 800px;
+    height: 40vh;
+    margin: 10px auto;
+    font-size: 20px;
+    color: #a9910d;
+    background: #c0d2f3;
+    border: 2px solid #5757dc;
+    border-radius: 4px;
+}
+.textarea:focus {
+    outline-color: #5757dc;
+}
+.keyboard {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.button {
+    width: 44px;
+    height: 44px;
+    margin: 3px;
+    border: 2px solid #5757dc;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 22px;
+    color: #a9910d;
+    box-shadow: 0 0 40px 40px #c0d2f3 inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+.button:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  }
+.button:active {
+    background: #abaee1;
+}
+.button-active {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    background: #abaee1;
+}
+.other-button {
+    width: 115px;
+}
+.another-button {
+    width: 75px;
+}
+.space-button {
+    width: 230px;
+}
+.push-arrows {
+    width: 393px;
+    height: 44px;
+    margin: 3px;
+    color: #a9910d;
+    border: none;
+    border-radius: 4px;
+    background: #5757dc;
+}
+.p {
+    text-align: center;
+    font-size: 22px;
+    color: #a9910d;
+}
